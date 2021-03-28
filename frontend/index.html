@@ -167,7 +167,7 @@ var pass = $("#password").val();
     
 alert("username is "+user+" and password is "+pass);    
     
-$.post("http://13.232.213.195/signup.php", {username:user, password:pass}, function(response){
+$.post("signup.php", {username:user, password:pass}, function(response){
     
 $("#res_signup").html(response);    
     
